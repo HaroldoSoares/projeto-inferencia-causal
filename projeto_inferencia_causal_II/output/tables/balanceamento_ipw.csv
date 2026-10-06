@@ -1,0 +1,12 @@
+Variável,Diferença Original,Diferença Após Peso IPW,Média Tratados IPW,Média Controle IPW
+gasto_90d,297.57,-6.52,635.04,641.57
+frequencia_90d,2.28,-0.04,4.91,4.95
+recencia_dias,-11.08,-0.43,22.82,23.25
+visitas_app_30d,2.14,0.02,6.43,6.41
+taxa_abertura_email,0.09,-0.0,0.24,0.24
+tempo_cliente_meses,7.51,0.05,39.95,39.9
+assinante_premium,0.22,-0.0,0.32,0.32
+regiao_Nordeste,-0.06,-0.0,0.24,0.24
+regiao_Norte,-0.02,0.0,0.08,0.08
+regiao_Sudeste,0.07,0.0,0.42,0.42
+regiao_Sul,0.01,-0.0,0.17,0.17

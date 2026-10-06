@@ -1,0 +1,38 @@
+                            WLS Regression Results                            
+==============================================================================
+Dep. Variable:              gasto_30d   R-squared:                       0.931
+Model:                            WLS   Adj. R-squared:                  0.930
+Method:                 Least Squares   F-statistic:                     5707.
+Date:                Mon, 05 Oct 2026   Prob (F-statistic):               0.00
+Time:                        22:19:16   Log-Likelihood:                -41165.
+No. Observations:                8000   AIC:                         8.236e+04
+Df Residuals:                    7987   BIC:                         8.245e+04
+Df Model:                          12                                         
+Covariance Type:                  HC3                                         
+=======================================================================================
+                          coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+Intercept             149.1966      2.153     69.305      0.000     144.977     153.416
+recebeu_cupom          48.8577      1.019     47.931      0.000      46.860      50.856
+gasto_90d               0.1752      0.002     87.795      0.000       0.171       0.179
+frequencia_90d          8.0208      0.266     30.162      0.000       7.500       8.542
+recencia_dias          -0.4848      0.029    -16.632      0.000      -0.542      -0.428
+visitas_app_30d         1.8670      0.210      8.897      0.000       1.456       2.278
+taxa_abertura_email    65.4416      4.439     14.742      0.000      56.741      74.142
+tempo_cliente_meses     0.1692      0.024      6.959      0.000       0.122       0.217
+assinante_premium      31.2818      1.209     25.872      0.000      28.912      33.652
+regiao_Nordeste       -10.9879      1.876     -5.856      0.000     -14.666      -7.310
+regiao_Norte           -9.1262      2.443     -3.736      0.000     -13.914      -4.339
+regiao_Sudeste         16.3542      1.753      9.327      0.000      12.918      19.791
+regiao_Sul             12.2443      2.002      6.116      0.000       8.320      16.168
+==============================================================================
+Omnibus:                       97.604   Durbin-Watson:                   2.011
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              173.023
+Skew:                          -0.025   Prob(JB):                     2.68e-38
+Kurtosis:                       3.719   Cond. No.                     7.42e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 7.42e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

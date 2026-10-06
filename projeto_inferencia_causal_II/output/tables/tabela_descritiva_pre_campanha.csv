@@ -1,0 +1,8 @@
+Variável,Média Tratados (Cupom=1),Média Controle (Cupom=0),Diferença (T - C),P-valor (T-test)
+gasto_90d,800.33,502.75,297.57,0.0
+frequencia_90d,6.18,3.89,2.28,0.0
+recencia_dias,17.09,28.17,-11.08,0.0
+visitas_app_30d,7.6,5.47,2.14,0.0
+taxa_abertura_email,0.29,0.2,0.09,0.0
+tempo_cliente_meses,44.08,36.56,7.51,0.0
+assinante_premium,0.44,0.22,0.22,0.0
